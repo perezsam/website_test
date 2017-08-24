@@ -278,8 +278,7 @@ label.book{
 	content:url(../images/sec-d.png)no-repeat 0px 0px;
 	position:relative;
 	left:3em;
-	top:1.5em;
-	
+	top:1.5em;	
 }
 .exp-devide-grid-rightb{
 	width:40%;
@@ -292,6 +291,21 @@ label.book{
 	content:url(../images/sec-d.png)no-repeat 0px 0px;
 	position:relative;
 	left:-3em;
+	top:1.5em;	
+}
+
+/*--- Left b special case --- */
+.exp-devide-grid-leftb_case01{
+	width:40%;
+	text-align:left;
+	position:absolute;
+	top:30em;
+	left: 5.8em;
+}
+.exp-devide-grid-leftb_case01:before{
+	content:url(../images/sec-d.png)no-repeat 0px 0px;
+	position:relative;
+	left:3em;
 	top:1.5em;
 	
 }
@@ -1066,7 +1080,7 @@ p.copyright a:hover{
 		left: 17.9%;
 	}
 	.education {
-		margin-top: 95%;
+		margin-top: 150%;
 	}
 	span.devide-line {
 		height: 418px;
