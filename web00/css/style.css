@@ -248,20 +248,20 @@ label.book{
 	top:1.5em;
 	
 }
-.exp-devide-grid-right h5,.exp-devide-grid-left h5,.exp-devide-grid-rightb h5{
+.exp-devide-grid-right h5, .exp-devide-grid-left h5, .exp-devide-grid-rightb h5, .exp-devide-grid-leftb h5, .exp-devide-grid-rightc h5, .exp-devide-grid-leftc h5, .exp-devide-grid-leftb_case01 h5{ /*Add more content (Title)*/
 	color:#2b3b4b;
-	text-transform:uppercase;
+	text-transform:none;
 	font-size:18px;
 	font-weight:800;
 	margin:0;
 }
-.exp-devide-grid-right small,.exp-devide-grid-left small,.exp-devide-grid-rightb small{
+.exp-devide-grid-right small, .exp-devide-grid-left small, .exp-devide-grid-rightb small, .exp-devide-grid-leftb small, .exp-devide-grid-rightc small, .exp-devide-grid-leftc small, .exp-devide-grid-leftb_case01 small{ /*Add more content (Period)*/
 	font-size:16px;
 	font-weight:400;
 	color:#7f8a90;
 	padding:0 0 10px 0;
 }
-.exp-devide-grid-right p,.exp-devide-grid-left p,.exp-devide-grid-rightb p{
+.exp-devide-grid-right p, .exp-devide-grid-left p, .exp-devide-grid-rightb p, .exp-devide-grid-leftb p, .exp-devide-grid-rightc p, .exp-devide-grid-leftc p, .exp-devide-grid-leftb_case01 p{ /*Add more content (Description)*/
 	font-size:14px;
 	font-weight:400;
 	color:#7f8a90;
