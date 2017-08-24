@@ -1013,7 +1013,7 @@ label.book{
 	left: 43.255em;
 }
 .exp-devide-grid-right:before{
-	/*content:url(../images/sec-d.png)no-repeat 0px 0px; */
+	/*content:url(../images/sec-d.png)no-repeat 0px 0px;*/
 	position:relative;
 	left:-3em;
 	top:1.5em;
@@ -1046,7 +1046,7 @@ label.book{
 	left: 5.8em;
 }
 .exp-devide-grid-left:before{
-	content:url(../images/sec-d.png)no-repeat 0px 0px;
+	/*content:url(../images/sec-d.png)no-repeat 0px 0px;*/
 	position:relative;
 	left:3em;
 	top:1.5em;
@@ -1060,7 +1060,7 @@ label.book{
 	left: 43.255em;
 }
 .exp-devide-grid-rightb:before{
-	content:url(../images/sec-d.png)no-repeat 0px 0px;
+	/*content:url(../images/sec-d.png)no-repeat 0px 0px;*/
 	position:relative;
 	left:-3em;
 	top:1.5em;
