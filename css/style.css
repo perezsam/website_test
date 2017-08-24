@@ -943,7 +943,12 @@ a.download span{
 }
 /*--- About Part Ends Here ---*/
 
-/*--- Experience Starts Here ----*/
+
+
+
+
+/*--- Experience TEST Starts Here ----*/
+
 .experience{
 	background:#f1f2f7; 
 	min-height:1650px;
@@ -1133,7 +1138,291 @@ label.book{
 .education{
 	margin-top:45%; /*Original 35%*/
 }
-/*--- Experience Ends Here ----*/
+
+
+
+/*--- Media Queries Starts Here ---*/
+@media (max-width:1024px){
+	
+	.about {
+		margin: 2em 0;
+	}
+	
+	
+	label.bag {
+		left: 32.7em;
+	}
+	.slider-top p {
+		font-size: 16px;
+	}
+
+	.exp-devide-grid-right {
+		left: 36.2em;
+	}
+	.exp-devide-grid-left {
+		left: 4.4em;
+	}
+	.exp-devide-grid-rightb {
+		top: 16em;
+		left: 36.2em;
+	}
+	.experience {
+		min-height: 970px;
+	}
+	.education {
+		margin-top: 38%;
+	}
+	span.devide-line {
+		height: 409px;
+	}
+	label.book {
+		left: 32.7em;
+	}
+}
+@media (max-width:800px){
+	
+	.about {
+		margin: 2em 0 3em;
+	}
+	.exp-devide h4 {
+		width: 19%;
+	}
+	
+	label.bag {
+		left: 24.7em;
+	}
+	.exp-devide-grid-right {
+		left: 28.3em;
+	}
+	.exp-devide-grid-left {
+		left: 2.8em;
+	}
+	.exp-devide-grid-rightb {
+		top: 18em;
+		left: 28.3em;
+	}
+	.education {
+		margin-top: 55%;
+	}
+	label.book {
+		left: 24.7em;
+	}
+	.skill-column {
+		margin-bottom: 2em;
+	}
+	.experience {
+		min-height: 1030px;
+	}
+	span.devide-line {
+		height: 435px;
+	}
+	.award-column {
+		margin-bottom: 1.5em;
+	}
+	.awards-top {
+		padding: 0;
+	}
+	.callbacks_tabs {
+		left: 41%;
+	}
+	.contact-column {
+		margin-bottom: 1em;
+	}
+	.skill-grids {
+		padding: 3em 0 0;
+	}
+}
+@media (max-width:640px){
+	
+	.exp-devide {
+		text-align: left;
+	}
+	.exp-devide-grid-left {
+		left: 1.9em;
+		display: none;
+	}
+	.exp-devide h4 {
+		width: 19%;
+		margin: 0;
+	}
+	span.devide-line {
+		left: 10%;
+	}
+	.about-top p.about-p {
+		font-size: 16px;
+	}
+	ul.hoby li i {
+		width: 80px;
+		height: 80px
+	}
+	a.download {
+		font-size: 14px;
+	}
+	.exp-devide h4 {
+		font-size: 16px
+	}
+	label.bag,label.book {
+		left: 7.25%;
+		top: 4em;
+	}
+	.exp-devide-grid-right {
+		left: 15.8%;
+		top: 6em;
+		width:84%;
+	}
+	.exp-devide-grid-left {
+			left: 1.9em;
+	}
+	.exp-devide-grid-rightb {
+		top: 16em;
+		left: 15.8%;
+		width:84%;
+	}
+	.exp-devide-grid-right h5, .exp-devide-grid-left h5, .exp-devide-grid-rightb h5 {
+		font-size: 16px;
+	}
+	.exp-devide-grid-right p,  .exp-devide-grid-left p,  .exp-devide-grid-rightb p {
+		font-size: 14px;
+		line-height:1.2em;
+	}
+	.exp-devide-grid-right small,.exp-devide-grid-left small,.exp-devide-grid-rightb small,{
+		font-size:15px;
+	}
+	.experience {
+		min-height: 906px;
+	}
+	span.devide-line {
+		height: 396px;
+	}
+	.skills-top {
+		padding: 0em 0 0;
+	}
+	.skill-grid h3 {
+		font-size: 19px;
+		margin:0;
+	}
+	.skills {
+		margin: 2em 0 0;
+	}
+	ul.social li i {
+		width: 80px;
+		height: 80px
+	}
+	.text input[type="text"],.text textarea {
+		width: 80%;
+	}
+}
+@media (max-width:480px){
+	
+	h3.top-title {
+		font-size: 20px;
+	}
+	ul.about-details li p {
+		font-size: 16px;
+	}
+	ul.about-details li {
+		margin: 1em 0;
+	}
+	a.download {
+		font-size: 12px;
+	}
+	.exp-devide h4 {
+		font-size: 14px;
+		width: 23%;
+	}	
+	label.bag, label.book {
+		left: 7%;
+	}
+	.exp-devide-grid-right {
+			left: 17.8%;
+			top: 6em;
+	}
+	.exp-devide-grid-left {
+		left: 0.8em;
+	}
+	.exp-devide-grid-rightb {
+		top: 18em;
+		left: 17.9%;
+	}
+	.education {
+		margin-top: 150%;
+	}
+	span.devide-line {
+		height: 418px;
+	}	
+	.experience {
+		min-height: 1650px;
+	}
+	.skill-grid h3 {
+		font-size: 16px;
+	}
+	
+}
+@media (max-width:320px){
+	
+	.exp-devide h4 {
+			font-size: 14px;
+			width: 37%;
+	}
+	label.bag, label.book {
+		left: 5.5%;
+	}
+	.exp-devide-grid-left {
+		left: -0.4em;
+	}
+	.exp-devide-grid-right {
+		left: 22.8%;
+		width:80%
+	}
+	.exp-devide-grid-rightb {
+		left: 22.8%;
+		width:80%;
+	}
+	.education {
+		margin-top: 156%;
+	}
+	ul.hoby li {
+		margin: 0em 0em;
+	}
+	span.devide-line {
+		height: 434px;
+	}
+	.callbacks_nav {
+		top: 65%;
+	}
+	.callbacks_tabs {
+		left: 29%;
+	}
+	.contact-column i {
+		width: 48px;
+		height: 48px;
+		background-size: 300%;
+	}
+	.contact-column i.mail {
+		background-position: -48px 0px;
+	}
+	.contact-column i.phone {
+		background-position: -98px 0px;
+	}
+	.exp-devide-grid-right p,  .exp-devide-grid-left p,  .exp-devide-grid-rightb p {
+		font-size: 13px;
+		line-height:1.5em;
+	}
+	.exp-devide-grid-right small,.exp-devide-grid-left small,.exp-devide-grid-rightb small,{
+		font-size:14px;
+	}
+}
+/*--- Media Queries Ends Here ---*/
+
+
+
+/*--- Experience TEST Ends Here ----*/
+
+
+
+
+
+
 
 /*--- Skills Starts Here ----*/
 .skills{
@@ -1467,6 +1756,11 @@ h4.tittle  {
 	text-decoration:none;
 	color:#FFF;
 }
+
+
+
+
+
 
 
 
